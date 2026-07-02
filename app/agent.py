@@ -26,7 +26,7 @@ class PolishedText(BaseModel):
 
 polish_agent = LlmAgent(
     name="text_polisher",
-    model="gemini-1.5-pro",
+    model="gemini-flash-latest",
     instruction="""You are a text editor for a civic
 community app in India called Hey Hood.
 
